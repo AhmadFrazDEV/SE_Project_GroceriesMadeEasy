@@ -1,4 +1,5 @@
 # Groceries Made Easy
+![download1](https://github.com/AhmadFrazDEV/SE_Project_GroceriesMadeEasy/assets/99407553/8f190c0a-0178-4c9c-aaaa-a9a968258fc6)
 
 ## Introduction
 
@@ -116,10 +117,6 @@ Groceries Made Easy is built using a combination of front-end and back-end techn
 - The **back-end** logic is implemented in **PHP**, a versatile server-side scripting language known for its reliability and security.
 - **Database management** is handled through **phpMyAdmin**, offering efficient data storage and retrieval.
 
-## Installation
-
-To use Groceries Made Easy, simply access our website [URL] from your web browser. There is no need for any installation or downloads.
-
 ## Usage
 
 1. **Sign Up**: Create an account or log in if you already have one.
@@ -132,4 +129,4 @@ To use Groceries Made Easy, simply access our website [URL] from your web browse
 
 ## License
 
-This project is licensed under the [MIT License](https://chat.openai.com/c/LICENSE).
+This project is licensed under the ```To be updated```.
