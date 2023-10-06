@@ -1,0 +1,109 @@
+.hb-colour-options{
+    width: 100%;
+}
+
+div.hb-colour-options input[type="radio"] {
+    position:absolute;
+    opacity: 0;
+    -moz-opacity: 0;
+    -webkit-opacity: 0;
+    -o-opacity: 0;
+}
+
+div.hb-colour-options input[type="radio"] + label {
+    position:relative;
+    float:left;
+    width: 60px;
+    height: 60px;
+    margin: 0 12px 12px 0;
+    text-indent:2px;
+    background: #000;
+    border: 2px solid #fff;
+    transition: all 0.5s ease;
+    border: 1px solid #cccccc;
+    text-align: center;
+    align-content: center
+}
+
+div.hb-colour-options input[type="radio"] + label:before {
+    content: attr(data-content);
+    display:block;
+    position:absolute;
+    top: 18.5px;
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: center;
+    height: 55px;
+    width: 55px;
+    color: #fff;
+
+
+}
+
+div.hb-colour-options input[type="radio"]#green + label:before {
+    background:#359457;
+}
+div.hb-colour-options input[type="radio"]#yellow + label:before {
+    background:#ffcd2f;
+}
+div.hb-colour-options input[type="radio"]#orange + label:before {
+    background:#f27930;
+}
+div.hb-colour-options input[type="radio"]#red + label:before {
+    background:#c1284a;
+}
+div.hb-colour-options input[type="radio"]#light-purple + label:before {
+    background:#8562a7;
+}
+div.hb-colour-options input[type="radio"]#light-blue + label:before {
+    background:#279fd7;
+}
+div.hb-colour-options input[type="radio"]#black + label:before {
+    background:#000000;
+}
+div.hb-colour-options input[type="radio"]#purple + label:before {
+    background:#65318f;
+}
+div.hb-colour-options input[type="radio"]#white + label:before {
+    background:#ffffff;
+}
+div.hb-colour-options input[type="radio"]#blue + label:before {
+    background:#006d94;
+}
+
+div.hb-colour-options input[type="radio"]:checked + label:after {
+    font-family: 'FontAwesome';
+    display:block;
+    position:absolute;
+    top:0px;
+    left:3px;
+    content: '\f00c';
+    font-size: 20px;
+    color: #fff;
+    z-index: 1;
+    text-indent: 0;
+    margin: 0;
+
+
+}
+div.hb-colour-options input[type="radio"]:disabled + label:after {
+    font-family: 'FontAwesome';
+    display:block;
+    position:absolute;
+    top:0px;
+    left:3px;
+    content: '\f00d';
+    font-size: 20px;
+    color: #fff;
+    z-index: 1;
+    text-indent: 0;
+    margin: 0;
+
+
+}
+
+div.hb-colour-options input[type="radio"]#white:checked + label:after,
+div.hb-colour-options input[type="radio"]#yellow:checked + label:after {
+    color: #000;
+}
