@@ -2,6 +2,7 @@
 include("header.php");
 
 $query = "SELECT * from terms";
+//echo $query;
 $term =db::getRecord($query);
 
 ?>

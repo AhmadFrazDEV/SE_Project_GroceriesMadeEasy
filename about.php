@@ -1,6 +1,7 @@
 <?php
 include("header.php");
 
+//query for about us
 $query = "SELECT * from about where id='1'";
 $about =db::getRecord($query);
 

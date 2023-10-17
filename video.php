@@ -6,6 +6,7 @@ include("header.php");
 
     <!-- Breadcrumb Area Start -->
     <div class="breadcrumb-area bg-light">
+        <!--Container-->
         <div class="container-fluid">
             <div class="breadcrumb-content text-center">
                 <h1 class="title">Videos</h1>

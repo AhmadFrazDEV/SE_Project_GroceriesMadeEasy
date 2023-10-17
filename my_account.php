@@ -19,7 +19,7 @@ $orders = db::getRecords($query);
                     </li>
                     <li class="active"> My Account</li>
                 </ul>
-            </div>
+            </div> 
         </div>
     </div>
     <!-- Breadcrumb Area End -->

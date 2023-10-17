@@ -1,7 +1,7 @@
 <?php
 session_start();
 require_once("admin/database.php");
-
+//get the id of the product
 $id = $_POST ['id'];
 
 ?>
@@ -16,7 +16,7 @@ $id = $_POST ['id'];
                                         $categories = db::getRecords($query);
 
 
-                                        if($categories!=null){
+                                        if($categories!=null ){
 
                                             foreach($categories as $category)
                                             {

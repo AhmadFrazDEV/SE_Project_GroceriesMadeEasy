@@ -1,11 +1,12 @@
 <?php
 if(isset($_POST['contact_submit'])){
+    //get the data from the form
     $name=$_POST['name'];
     $email=$_POST['email'];
     $phone=$_POST['phone'];
     $sub=$_POST['subject'];
 
-
+    //save the data in the database
     $comment=$_POST['comment'];
 
     $message=file_get_contents("email.html");
@@ -21,7 +22,7 @@ if(isset($_POST['contact_submit'])){
 
     );
 
-
+    //replace the variables with the values
     foreach($variables as $key => $value){
         $message= str_replace($key, $value, $message);
     }
@@ -37,10 +38,12 @@ if(isset($_POST['contact_submit'])){
 
 
     if($email == true){
+        //display success message
         echo "<script>alert('Message Sent Successfully!');</script>";
         echo "<script>location='index.php'</script>";
     }
     else{
+        //display error message
         echo "<script>alert('Something Went Wrong!');</script>";
         echo "<script>location='contact.php'</script>";
     }

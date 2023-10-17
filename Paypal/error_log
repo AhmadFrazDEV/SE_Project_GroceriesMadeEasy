@@ -1,0 +1,2 @@
+[07-Apr-2023 07:12:01 UTC] PHP Warning:  Undefined variable $item_name in /home/singxkmc/dev.single-solution.com/kids_clothing/Paypal/payments.php on line 275
+[07-Apr-2023 07:12:01 UTC] PHP Warning:  Undefined variable $item_amount in /home/singxkmc/dev.single-solution.com/kids_clothing/Paypal/payments.php on line 276
