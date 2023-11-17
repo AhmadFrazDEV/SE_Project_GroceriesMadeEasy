@@ -1,0 +1,10 @@
+[30-May-2023 17:54:16 UTC] PHP Warning:  Undefined variable $user_data in /home/singxkmc/dev.single-solution.com/kids_clothing/admin/customers/header.php on line 102
+[30-May-2023 17:54:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/singxkmc/dev.single-solution.com/kids_clothing/admin/customers/header.php on line 102
+[30-May-2023 17:54:16 UTC] PHP Warning:  Undefined variable $user_data in /home/singxkmc/dev.single-solution.com/kids_clothing/admin/customers/header.php on line 127
+[30-May-2023 17:54:16 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/singxkmc/dev.single-solution.com/kids_clothing/admin/customers/header.php on line 127
+[30-May-2023 17:54:16 UTC] PHP Warning:  Undefined variable $user_role in /home/singxkmc/dev.single-solution.com/kids_clothing/admin/customers/header.php on line 169
+[29-Nov-2023 13:43:34 UTC] PHP Warning:  Undefined variable $user_data in /home/singxkmc/dev.single-solution.com/gme/admin/customers/header.php on line 102
+[29-Nov-2023 13:43:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/singxkmc/dev.single-solution.com/gme/admin/customers/header.php on line 102
+[29-Nov-2023 13:43:34 UTC] PHP Warning:  Undefined variable $user_data in /home/singxkmc/dev.single-solution.com/gme/admin/customers/header.php on line 127
+[29-Nov-2023 13:43:34 UTC] PHP Warning:  Trying to access array offset on value of type null in /home/singxkmc/dev.single-solution.com/gme/admin/customers/header.php on line 127
+[29-Nov-2023 13:43:34 UTC] PHP Warning:  Undefined variable $user_role in /home/singxkmc/dev.single-solution.com/gme/admin/customers/header.php on line 169
