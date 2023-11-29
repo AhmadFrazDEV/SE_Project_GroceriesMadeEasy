@@ -1,6 +1,6 @@
 <?php
 include ("header.php");
-
+//getting product by ud
 $id = $_GET['id'];
 $query = "SELECT * from product where id = $id ";
 $product = db::getRecord($query);

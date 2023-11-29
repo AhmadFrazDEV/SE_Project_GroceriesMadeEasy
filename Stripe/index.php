@@ -254,7 +254,7 @@ if(isset($_POST['final_donate']))
 <?php
 
 require_once('vendor/autoload.php');
-\Stripe\Stripe::setApiKey('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');
+\Stripe\Stripe::setApiKey('APIKEY');
 $session = \Stripe\Checkout\Session::create([
     'payment_method_types' => ['card'],
     'line_items' => [[
@@ -283,7 +283,7 @@ $session = \Stripe\Checkout\Session::create([
 <body>
 
     <script>
-        var stripe = Stripe('pk_live_51J1JHMATA9aKAVSrtwq2dGZTA5MuTIeainVUrwKHwVrFAqct8c2AP5dkk98JZrUBYEIN6996gl9AqyOqjE8mipqF00L4QI0lPi');
+        var stripe = Stripe('APIKEY');
         stripe.redirectToCheckout({
             sessionId: "<?php echo $session->id; ?>"
         });

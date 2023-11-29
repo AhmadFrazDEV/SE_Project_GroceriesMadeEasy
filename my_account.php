@@ -1,6 +1,6 @@
 <?php
 include("header.php");
-
+//getting my orders
 $query = "SELECT * from orders where email='$user_email'";
 $orders = db::getRecords($query);
 ?>

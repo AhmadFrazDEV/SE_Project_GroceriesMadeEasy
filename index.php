@@ -1,7 +1,7 @@
 <?php
 include("header.php");
 
-
+//fetch
 $query = "SELECT * from category";
 $categories = db::getRecords($query);
 

@@ -1,4 +1,5 @@
 <?php
+//making user email null
 $user_email= NULL;
 include ("header.php");
 

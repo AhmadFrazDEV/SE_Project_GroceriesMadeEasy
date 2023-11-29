@@ -1,4 +1,5 @@
 <?php
+//checking method
 if(isset($_POST['contact_submit'])){
     //get the data from the form
     $name=$_POST['name'];
